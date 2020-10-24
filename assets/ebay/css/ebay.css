@@ -4,6 +4,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     margin: 0px;
+    padding: 0px;
 }
 .toolbar {
     display: flex;
