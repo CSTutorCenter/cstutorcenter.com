@@ -1,15 +1,15 @@
+body {
+    margin: 0px;
+}
 .container {
     color: #111;
     font-family: "Ubuntu", -apple-system, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    margin: 0px;
-    padding: 0px;
 }
 .toolbar {
     display: flex;
     justify-content: flex-end;
-    margin: 0px;
     background-color: #333;
     min-height: 20px;
     color: lightgrey;
@@ -38,6 +38,7 @@ strong {
     padding: 0px 0px 10px 0px;
 }
 .title {
+    margin: 10px 0px 10px 0px;
     font-size: 2.5rem;
 }
 .subtitle {
