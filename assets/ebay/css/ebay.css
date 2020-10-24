@@ -1,18 +1,13 @@
-.container {
+body {
     color: #111;
     font-family: "Ubuntu", -apple-system, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-weight: 300;
-    line-height: 1.5rem;
     margin: 0px;
-    padding: 0px;
 }
 .toolbar {
     display: flex;
     justify-content: flex-end;
-    margin: 0px;
-    padding: 10px;
     background-color: #333;
     min-height: 20px;
     color: lightgrey;
@@ -30,6 +25,9 @@
     width: 100%;
     height: auto;
 }
+img {
+    max-width: 100%;
+}
 strong {
     color: #696969;
 }
@@ -38,15 +36,17 @@ strong {
     padding: 0px 0px 10px 0px;
 }
 .title {
+    margin: 10px;
     font-size: 2.5rem;
 }
 .subtitle {
     font-size: 2rem;
 }
 .spacer {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 .usb-img {
+    margin: 0px 10px 0px 10px;
     max-width: 450px;
 }
 .video {
@@ -56,7 +56,6 @@ strong {
     align-items: center;
 }
 ul {
-    padding-right: 20px;
     font-size: 1.5rem;
     list-style-image: url("data:image/svg+xml,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Ccircle fill='%23e95420' cx='8' cy='8' r='7'/%3E%3Cpath fill='%23FFF' fill-rule='nonzero' d='M10.83 4.501l1.208.89-5.033 6.83-2.922-3.096 1.091-1.029 1.689 1.789z'/%3E%3C/g%3E%3C/svg%3E");
 }
