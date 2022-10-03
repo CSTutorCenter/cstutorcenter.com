@@ -2,7 +2,7 @@ function calculatePayment() {
     const errorMessage = 'Invalid input. Please check your entries.';
     const el = document.getElementById('payment-result');
     const r = document.getElementById('rate').value;
-    const m = ocument.getElementById('minutes').value;
+    const m = document.getElementById('minutes').value;
     if (isNaN(r) || isNaN(m)) {
         el.innerHTML = errorMessage;
         return;
